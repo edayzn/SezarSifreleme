@@ -23,7 +23,7 @@ public class SezarSifrelemeCozme {
             alfabe[indis] = (char) i;
             indis++;
         }
-        // ÞÝFRELEME
+        // SIFRELEME
         for (int i = 0; i < metin.length(); i++) {
             for (int j = 0; j < alfabe.length; j++) {
                 if (metin.charAt(i) == alfabe[j]) {
@@ -42,7 +42,7 @@ public class SezarSifrelemeCozme {
             System.out.println("Þifreli metin : " + sifreliMetin);
         }
 
-        //ÞÝFRE ÇÖZME
+        //SIFRE COZME
         for (int i = 0; i < sifreliMetin.length(); i++) {
             for (int j = 0; j < alfabe.length; j++) {
                 if (sifreliMetin.charAt(i) == alfabe[j]) {
